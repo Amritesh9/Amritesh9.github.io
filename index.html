@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amritesh Gupta - Android Developer Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .portfolio-header {
+            text-align: center;
+            padding: 2rem;
+            background-color: #343a40;
+            color: white;
+        }
+        .projects .card {
+            margin-bottom: 20px;
+        }
+        .skills {
+            margin-top: 2rem;
+        }
+        .skills h3 {
+            margin-bottom: 1rem;
+        }
+        .skills .skill-category {
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="portfolio-header">
+        <h1>Amritesh Gupta</h1>
+        <p>Android Developer | Kotlin Enthusiast | UI/UX Designer</p>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search Projects" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container mt-5">
+        <h2 class="text-center">My Android Projects</h2>
+        <div class="row">
+            <!-- Project Cards -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 1: Women's Safety App</h5>
+                        <p class="card-text">A GPS-based safety app designed for women with emergency alert features.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 2: Weather Forecast App</h5>
+                        <p class="card-text">A weather app that provides accurate real-time data and forecasts using Retrofit and OpenWeatherMap API.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 3: Fitness Tracker App</h5>
+                        <p class="card-text">Tracks user activity, calories, and workout progress with Google Fit API.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more projects -->
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 4: Task Management App</h5>
+                        <p class="card-text">A user-friendly app to organize daily tasks with room for storing data locally.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Project 5: Social Media App</h5>
+                        <p class="card-text">A social media app with real-time chat and post-sharing functionality using Firebase.</p>
+                        <a href="#" class="btn btn-primary">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Continue with projects 6-10 -->
+            <!-- Placeholder for other projects -->
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container skills">
+        <h2 class="text-center">Skills</h2>
+        <div class="row">
+            <!-- Expert Skills -->
+            <div class="col-md-4">
+                <h3>Expert Level</h3>
+                <ul>
+                    <li>Android Development</li>
+                    <li>Kotlin</li>
+                    <li>Retrofit</li>
+                    <li>Jetpack Compose</li>
+                    <li>Firebase</li>
+                </ul>
+            </div>
+
+            <!-- Intermediate Skills -->
+            <div class="col-md-4">
+                <h3>Intermediate Level</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>SQLite</li>
+                    <li>Room Database</li>
+                    <li>UI/UX Design</li>
+                    <li>REST APIs</li>
+                </ul>
+            </div>
+
+            <!-- Basic Skills -->
+            <div class="col-md-4">
+                <h3>Basic Level</h3>
+                <ul>
+                    <li>Machine Learning</li>
+                    <li>Python</li>
+                    <li>Docker</li>
+                    <li>GraphQL</li>
+                    <li>CI/CD Pipelines</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container mt-5">
+        <h2 class="text-center">Contact Me</h2>
+        <div class="text-center">
+            <p>Email: blpamritesh@gmail.com</p>
+            <p>Phone: +91 8874487646</p>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
